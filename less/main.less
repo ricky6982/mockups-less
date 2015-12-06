@@ -1,0 +1,52 @@
+@import 'for.less';
+
+// Definición de Colores
+@blue: #4A6DAE;
+@yellow: #F7DE0A;
+@orange: #FB8202;
+@green: #13E141;
+@colors: 'blue', 'yellow', 'orange', 'green';
+
+@inclinacion: 20deg;
+
+@alturaBloque: 120px;
+@anchoImagen: 160px;
+
+
+.for(@colors); .-each(@color){
+    @name: e(@color);
+    .titulo-diagonal-@{name} {
+        background-color: @@name;
+        transform: skewX(-@inclinacion);
+        padding: 10px;
+        display: inline-block;
+        >div{
+            color: white;
+            transform: skewX(@inclinacion);
+        }
+    }
+
+    .bloque-diagonal-@{name} {
+        border: 3px solid @@name;
+        border-right: none;
+        height: @alturaBloque;
+        margin: 20px;
+        padding-right: 4px;
+        transform: skewX(-@inclinacion);
+        .imagen{
+            background-color: @@name;
+            float: left;
+            height: inherit;
+            width: @anchoImagen;
+            > img, >div{
+                color: white;
+                font-size: 25px;
+                transform: skewX(@inclinacion);
+            }
+        }
+        .contenido{
+            margin-left: @anchoImagen + 20px;
+            transform: skewX(@inclinacion);
+        }
+    }
+}

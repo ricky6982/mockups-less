@@ -1,0 +1,136 @@
+.titulo-diagonal-blue {
+  background-color: #4A6DAE;
+  transform: skewX(-20deg);
+  padding: 10px;
+  display: inline-block;
+}
+.titulo-diagonal-blue > div {
+  color: white;
+  transform: skewX(20deg);
+}
+.bloque-diagonal-blue {
+  border: 3px solid #4A6DAE;
+  border-right: none;
+  height: 120px;
+  margin: 20px;
+  padding-right: 4px;
+  transform: skewX(-20deg);
+}
+.bloque-diagonal-blue .imagen {
+  background-color: #4A6DAE;
+  float: left;
+  height: inherit;
+  width: 160px;
+}
+.bloque-diagonal-blue .imagen > img,
+.bloque-diagonal-blue .imagen > div {
+  color: white;
+  font-size: 25px;
+  transform: skewX(20deg);
+}
+.bloque-diagonal-blue .contenido {
+  margin-left: 180px;
+  transform: skewX(20deg);
+}
+.titulo-diagonal-yellow {
+  background-color: #F7DE0A;
+  transform: skewX(-20deg);
+  padding: 10px;
+  display: inline-block;
+}
+.titulo-diagonal-yellow > div {
+  color: white;
+  transform: skewX(20deg);
+}
+.bloque-diagonal-yellow {
+  border: 3px solid #F7DE0A;
+  border-right: none;
+  height: 120px;
+  margin: 20px;
+  padding-right: 4px;
+  transform: skewX(-20deg);
+}
+.bloque-diagonal-yellow .imagen {
+  background-color: #F7DE0A;
+  float: left;
+  height: inherit;
+  width: 160px;
+}
+.bloque-diagonal-yellow .imagen > img,
+.bloque-diagonal-yellow .imagen > div {
+  color: white;
+  font-size: 25px;
+  transform: skewX(20deg);
+}
+.bloque-diagonal-yellow .contenido {
+  margin-left: 180px;
+  transform: skewX(20deg);
+}
+.titulo-diagonal-orange {
+  background-color: #FB8202;
+  transform: skewX(-20deg);
+  padding: 10px;
+  display: inline-block;
+}
+.titulo-diagonal-orange > div {
+  color: white;
+  transform: skewX(20deg);
+}
+.bloque-diagonal-orange {
+  border: 3px solid #FB8202;
+  border-right: none;
+  height: 120px;
+  margin: 20px;
+  padding-right: 4px;
+  transform: skewX(-20deg);
+}
+.bloque-diagonal-orange .imagen {
+  background-color: #FB8202;
+  float: left;
+  height: inherit;
+  width: 160px;
+}
+.bloque-diagonal-orange .imagen > img,
+.bloque-diagonal-orange .imagen > div {
+  color: white;
+  font-size: 25px;
+  transform: skewX(20deg);
+}
+.bloque-diagonal-orange .contenido {
+  margin-left: 180px;
+  transform: skewX(20deg);
+}
+.titulo-diagonal-green {
+  background-color: #13E141;
+  transform: skewX(-20deg);
+  padding: 10px;
+  display: inline-block;
+}
+.titulo-diagonal-green > div {
+  color: white;
+  transform: skewX(20deg);
+}
+.bloque-diagonal-green {
+  border: 3px solid #13E141;
+  border-right: none;
+  height: 120px;
+  margin: 20px;
+  padding-right: 4px;
+  transform: skewX(-20deg);
+}
+.bloque-diagonal-green .imagen {
+  background-color: #13E141;
+  float: left;
+  height: inherit;
+  width: 160px;
+}
+.bloque-diagonal-green .imagen > img,
+.bloque-diagonal-green .imagen > div {
+  color: white;
+  font-size: 25px;
+  transform: skewX(20deg);
+}
+.bloque-diagonal-green .contenido {
+  margin-left: 180px;
+  transform: skewX(20deg);
+}
